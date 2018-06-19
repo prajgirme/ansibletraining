@@ -1,0 +1,10 @@
+[root@bastion ansible]# cat /etc/krb5.conf.d/ansible.conf
+[realms]
+
+ AD1.DE47.EXAMPLE.OPENTLC.COM = {
+
+ kdc = ad1.de47.example.opentlc.com
+ }
+
+[domain_realm]
+ .ad1.de47.example.opentlc.com = AD1.DE47.EXAMPLE.OPENTLC.COM
