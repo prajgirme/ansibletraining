@@ -70,29 +70,34 @@
 	.
 
 # File marks:
-'0  1  0  /etc/ansible/hosts
-'1  16  0  ~/bad-ansible/3tier-bad/bad-playbook.yml
-'2  1  0  ~/bad-ansible/3tier-bad/roles/tomcat/tasks/main.yml
-'3  58  0  ~/bad-ansible/3tier-bad/bad-playbook.yml
-'4  44  2  ~/bad-ansible/3tier-bad/bad-playbook.yml
-'5  63  2  ~/bad-ansible/3tier-bad/bad-playbook.yml
-'6  43  0  ~/pratik-good/good-ansible-prtk/3-tier-good/main.yml
-'7  1  0  ~/pratik-good/good-ansible-prtk/3-tier-good/main.
-'8  32  0  ~/bad-ansible/3tier-bad/myinventory.file
-'9  65  0  ~/bad-ansible/3tier-bad/bad-playbook.yml
+'0  1  0  ~/pratik-good/good-ansible-prtk/3-tier-good/roles/lb-tier/tasks/main.yml
+'1  1  0  ~/pratik-good/good-ansible-prtk/3-tier-good/roles/application1/tasks/main.yml
+'2  1  2  ~/pratik-good/good-ansible-prtk/3-tier-good/main.yml
+'3  1  0  ~/pratik-good/good-ansible-prtk/3-tier-good/main.
+'4  10  55  ~/bad-ansible/3tier-bad/test_hosts.yml
+'5  1  0  ~/bad-ansible/3tier-bad/bad-playbook.yml
+'6  1  0  /etc/ansible/hosts
+'7  16  0  ~/bad-ansible/3tier-bad/bad-playbook.yml
+'8  1  0  ~/bad-ansible/3tier-bad/roles/tomcat/tasks/main.yml
+'9  58  0  ~/bad-ansible/3tier-bad/bad-playbook.yml
 
 # Jumplist (newest first):
--'  1  0  /etc/ansible/hosts
+-'  1  0  ~/pratik-good/good-ansible-prtk/3-tier-good/roles/lb-tier/tasks/main.yml
+-'  1  0  ~/pratik-good/good-ansible-prtk/3-tier-good/roles/application1/tasks/main.yml
+-'  1  2  ~/pratik-good/good-ansible-prtk/3-tier-good/main.yml
+-'  43  4  ~/pratik-good/good-ansible-prtk/3-tier-good/main.yml
+-'  1  0  ~/pratik-good/good-ansible-prtk/3-tier-good/main.
+-'  10  55  ~/bad-ansible/3tier-bad/test_hosts.yml
+-'  1  0  ~/bad-ansible/3tier-bad/test_hosts.yml
+-'  1  0  ~/bad-ansible/3tier-bad/bad-playbook.yml
 -'  16  0  ~/bad-ansible/3tier-bad/bad-playbook.yml
+-'  1  0  /etc/ansible/hosts
 -'  58  0  ~/bad-ansible/3tier-bad/bad-playbook.yml
 -'  1  0  ~/bad-ansible/3tier-bad/roles/tomcat/tasks/main.yml
 -'  44  4  ~/bad-ansible/3tier-bad/bad-playbook.yml
 -'  63  2  ~/bad-ansible/3tier-bad/bad-playbook.yml
 -'  64  3  ~/bad-ansible/3tier-bad/bad-playbook.yml
 -'  65  0  ~/bad-ansible/3tier-bad/bad-playbook.yml
--'  43  0  ~/pratik-good/good-ansible-prtk/3-tier-good/main.yml
--'  1  0  ~/pratik-good/good-ansible-prtk/3-tier-good/main.yml
--'  1  0  ~/pratik-good/good-ansible-prtk/3-tier-good/main.
 -'  32  0  ~/bad-ansible/3tier-bad/myinventory.file
 -'  16  0  ~/bad-ansible/3tier-bad/myinventory.file
 -'  56  6  ~/bad-ansible/3tier-bad/bad-playbook.yml
@@ -103,7 +108,6 @@
 -'  1  0  ~/pratik-good/good-ansible-prtk/3-tier-good/roles/app-tier/vars/main.yml
 -'  1  0  ~/pratik-good/good-ansible-prtk/3-tier-good/roles/app-tier/tasks/main.yml
 -'  28  4  ~/bad-ansible/3tier-bad/roles/apachetomcat/tasks/main.yml
--'  1  0  ~/bad-ansible/3tier-bad/bad-playbook.yml
 -'  60  2  ~/bad-ansible/3tier-bad/bad-playbook.yml
 -'  23  3  ~/bad-ansible/3tier-bad/myinventory.file
 -'  17  0  ~/bad-ansible/3tier-bad/myinventory.file
@@ -176,18 +180,29 @@
 -'  97  8  ~/bad-ansible/3tier-bad/orig-bad-playbook.yml
 -'  103  22  ~/bad-ansible/3tier-bad/orig-bad-playbook.yml
 -'  105  11  ~/bad-ansible/3tier-bad/orig-bad-playbook.yml
--'  106  46  ~/bad-ansible/3tier-bad/orig-bad-playbook.yml
--'  75  22  ~/bad-ansible/3tier-bad/orig-bad-playbook.yml
--'  77  11  ~/bad-ansible/3tier-bad/orig-bad-playbook.yml
--'  78  43  ~/bad-ansible/3tier-bad/orig-bad-playbook.yml
 
 # History of marks within files (newest to oldest):
 
-> /etc/ansible/hosts
+> ~/pratik-good/good-ansible-prtk/3-tier-good/roles/lb-tier/tasks/main.yml
 	"	1	0
 
+> ~/pratik-good/good-ansible-prtk/3-tier-good/roles/application1/tasks/main.yml
+	"	1	0
+
+> ~/pratik-good/good-ansible-prtk/3-tier-good/main.yml
+	"	1	2
+
+> ~/pratik-good/good-ansible-prtk/3-tier-good/main.
+	"	1	0
+
+> ~/bad-ansible/3tier-bad/test_hosts.yml
+	"	10	55
+	^	10	56
+	.	10	0
+	+	10	0
+
 > ~/bad-ansible/3tier-bad/bad-playbook.yml
-	"	16	0
+	"	1	0
 	.	64	0
 	+	20	0
 	+	40	0
@@ -225,13 +240,10 @@
 	+	63	0
 	+	64	0
 
-> ~/bad-ansible/3tier-bad/roles/tomcat/tasks/main.yml
+> /etc/ansible/hosts
 	"	1	0
 
-> ~/pratik-good/good-ansible-prtk/3-tier-good/main.yml
-	"	43	0
-
-> ~/pratik-good/good-ansible-prtk/3-tier-good/main.
+> ~/bad-ansible/3tier-bad/roles/tomcat/tasks/main.yml
 	"	1	0
 
 > ~/bad-ansible/3tier-bad/myinventory.file

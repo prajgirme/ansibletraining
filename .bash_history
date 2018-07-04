@@ -417,3 +417,52 @@ cd
 ssh ssh ec2-user@app1.7e5e.example.opentlc.com
  ssh ec2-user@app1.7e5e.example.opentlc.com
 sudo -i
+ls
+cd bad-ansible/
+ls
+ls -la
+cat .git
+cd .git/info/
+ls
+cd ..
+ls
+git commit -m "3 Tier"
+git add .
+ls
+cd ..
+ls
+git init
+git add 
+
+git commit -m "first commit"
+git remote add origin https://github.com/prajgirme/ansibletraining.git
+git push -u origin master 
+git push -u origin master
+ls
+cd bad-ansible/
+ls
+cd 3tier-bad/
+ls
+vi bad-playbook.yml 
+vi test_hosts.yml
+ls
+cd pratik-good/good-ansible-prtk/
+ls
+cd 3-tier-good/
+ls
+vi main.
+vi main.yml 
+cd roles/
+ls
+cd application1/
+ls
+cd tasks/
+ls
+vi main.yml 
+cd ..
+ls
+cd lb-tier/
+ls
+cd tasks/
+ls
+vi main.yml 
