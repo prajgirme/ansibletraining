@@ -1,0 +1,8 @@
+user_info:
+  - test1:
+      name:
+      firstname:
+      surname:
+      password:
+      group_name:
+      group_scope:

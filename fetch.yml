@@ -1,0 +1,10 @@
+---
+- name : Playbook to fetch file
+  hosts : tower 
+  remote_user : ec2-user
+  gather_facts : false	
+  tasks:
+  - name: Fetch module
+    fetch:
+      src: /home/ec2-user/praj/test_file
+      dest: /root/praj 
